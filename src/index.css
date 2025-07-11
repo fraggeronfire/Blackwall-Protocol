@@ -6,9 +6,11 @@ body,
   height: 100%;
   width: 100%;
   font-family: 'Courier New', Courier, monospace;
-  color: #FF6EC7;
+  color: #FF003C;
   overflow: hidden;
   position: relative;
+  text-shadow: 0 0 5px #C70039;
+  
 }
 
 .bg-video {
@@ -43,7 +45,7 @@ body,
 .transmission {
   font-size: 1.25rem;
   margin-bottom: 2rem;
-  border-left: 4px solid #FF6EC7;
+  border-left: 4px solid #C70039;
   padding-left: 1rem;
   font-style: italic;
   max-width: 600px;
@@ -51,13 +53,13 @@ body,
 }
 
 .profile-card {
-  background-color: rgba(31, 41, 55, 0.9);
+  background-color: #1A000E;
   padding: 2rem;
   border-radius: 0.75rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 4px 8px #C70039;
   max-width: 400px;
   width: 100%;
-  color: #FF00FF;
+  color: #C70039;
   position: relative;
   margin-bottom: 2rem;
   text-align: left;
@@ -67,7 +69,7 @@ body,
 .profile-card h2 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
-  color: #FF6EC7;
+  color: #C70039;
 }
 
 .profile-details p {
@@ -94,7 +96,7 @@ body,
 
 .progress-bar {
   height: 100%;
-  background-color: #FF6EC7;
+  background-color: #C70039;
   border-radius: 10px;
   transition: width 0.1s linear;
 }
@@ -121,14 +123,14 @@ body,
 }
 
 .system-stats {
-  background-color: rgba(31, 41, 55, 0.85);
+  background-color: #1A000E;;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
   max-width: 400px;
   width: 100%;
-  color: #FF00FF;
+  color: #C70039;
   text-align: left;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+  box-shadow: 0 4px 8px #C70039;
   margin-bottom: 2rem;
   z-index: 10;
 }
@@ -136,7 +138,7 @@ body,
 .system-stats h3 {
   margin-bottom: 1rem;
   font-size: 1.25rem;
-  color: #FF6EC7;
+  color: #C70039;
 }
 
 .system-stats ul {
